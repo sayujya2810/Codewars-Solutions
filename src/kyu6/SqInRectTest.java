@@ -7,6 +7,7 @@ import java.util.*;
 import static org.testng.AssertJUnit.assertEquals;
 
 
+
 public class SqInRectTest {
 
     @Test
@@ -26,10 +27,7 @@ class SqInRect {
 
         List<Integer> a = new ArrayList<Integer>();
 
-
         if (lng == wdth) return null;
-
-
         while (lng * wdth > 0) {
             if (lng > wdth) {
                 a.add(wdth);
